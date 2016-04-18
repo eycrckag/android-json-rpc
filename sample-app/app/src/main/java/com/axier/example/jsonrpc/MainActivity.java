@@ -1,9 +1,8 @@
 package com.axier.example.jsonrpc;
 
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,6 +18,8 @@ import org.json.JSONObject;
 
 
 public class MainActivity extends ActionBarActivity {
+    //TODO add batch request
+
 
     public String URL = "";
     public String EXAMPLE_SUCCESS_CALL = "https://raw.githubusercontent.com/axierjhtjz/android-json-rpc/master/success.json";
