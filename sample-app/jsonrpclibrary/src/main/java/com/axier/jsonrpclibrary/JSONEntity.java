@@ -1,12 +1,13 @@
 package com.axier.jsonrpclibrary;
 
-import java.io.UnsupportedEncodingException;
-
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.protocol.HTTP;
+import org.json.JSONArray;
 import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
 
 /**
  * Provides a HttpEntity for json content
@@ -21,6 +22,10 @@ class JSONEntity extends StringEntity
 	public JSONEntity(JSONObject jsonObject) throws UnsupportedEncodingException 
 	{
 		super(jsonObject.toString());
+	}
+	public JSONEntity(JSONArray jsonarray) throws UnsupportedEncodingException
+	{
+		super(jsonarray.toString());
 	}
 	
 	/**

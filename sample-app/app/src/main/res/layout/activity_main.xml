@@ -25,6 +25,26 @@
             android:layout_height="wrap_content"
             android:text="Error"/>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/batch_success_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:text="Batch_Success"/>
+        <Button
+            android:id="@+id/batch_error_btn"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:layout_height="wrap_content"
+            android:text="Batch_Error"/>
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/response_area"

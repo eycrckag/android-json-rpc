@@ -1,12 +1,11 @@
 package com.axier.jsonrpclibrary;
 
-import java.util.UUID;
-
+import org.apache.http.protocol.HTTP;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import org.apache.http.protocol.HTTP;
+import java.util.UUID;
 
 public abstract class JSONRPCClient {
 	
