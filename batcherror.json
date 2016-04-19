@@ -5,7 +5,7 @@
             "code": -32600,
             "message": "Invalid Request"
         },
-        "id": null
+        "id": "null"
     },
     {
         "jsonrpc": "2.0",
@@ -14,6 +14,6 @@
             "message": "Method not found"
         },
         "id": "5"
-    },
+    }
     
 ]
